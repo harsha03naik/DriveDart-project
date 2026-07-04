@@ -15,7 +15,7 @@
             
         </form>
         <div class="back">
-            <a class="fas fa-times" href="homepage.php"></a>
+            <a class="fas fa-times" href="homepage.html"></a>
         </div>
     </main>
 
@@ -327,7 +327,9 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="auth.js"></script>
 <script type="text/javascript">
+    requireAuth();
     $(document).ready(function(){
         $("#myinput").on("keyup", function(){
              var value= $(this).val().toLowerCase();         
